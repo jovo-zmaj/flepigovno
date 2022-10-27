@@ -121,26 +121,26 @@ class Ptica:
 
         #hitboks
         pty = (0.003 * xE)
-        self.ptica_rect = pygame.Rect(xE / 4, yE / 2, pty * 16, pty * 12)
+        self.ptica_rect = pygame.Rect(xE / 4, yE / 4, pty * 16, pty * 12)
 
         pty = (0.001 * xE) * 32
         self.pod_rect = [pygame.Rect(0, yE - pty, xE, pty),pygame.Rect(xE, yE - pty, xE, pty)]
 
-        self.settings_rect = pygame.Rect(xE / 100, xE / 100, pty, pty)
+        self.settings_rect = pygame.Rect(xE / 100, xE / 200, pty, pty)
 
         pty = (0.008 * xE)################################################
-        self.ovo_rect = [ pygame.Rect(0.15*xE, 0.11*yE, pty * 32, pty * 15) , pygame.Rect(0.6*xE, 0.11*yE, pty * 32, pty * 15) ]
+        self.ovo_rect = [ pygame.Rect(0.15*xE, 0.44*yE, pty * 32, pty * 15) , pygame.Rect(0.6*xE, 0.44*yE, pty * 32, pty * 15) ]
 
 
-        self.mejn_rect = pygame.Rect(0.368*xE, 0.195*yE, 32, 32)
+        self.mejn_rect = pygame.Rect(0.368*xE, 0.78*yE, 32, 32)
 
         
         pty = (0.002 * xE)
-        self.stub_rect = [pygame.Rect(xE, -0.2*yE, pty*32, pty*250),pygame.Rect(xE, 0.115*yE, pty*32, pty*250)]
+        self.stub_rect = [pygame.Rect(xE, -0.8*yE, pty*32, pty*250),pygame.Rect(xE, 0.46*yE, pty*32, pty*250)]
 
 
         pty = (0.003 * xE)
-        self.natrag_rect = pygame.Rect(0.44*xE, 0.22*yE, pty*41, pty*10)
+        self.natrag_rect = pygame.Rect(0.44*xE, 0.88*yE, pty*41, pty*10)
 
         self.lopta_rect = [pygame.Rect(0.44*xE, 0.125*yE, pty*41, pty*10),pygame.Rect(0.44*xE, 0.44*yE, pty*41, pty*10)]
         
